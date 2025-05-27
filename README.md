@@ -28,20 +28,21 @@
     Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process 
    
 3. **Activate venv**
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
+   ```bash
+    source venv/bin/activate
+   # On Windows use `venv\Scripts\activate`
 
-4. **Install dependencies**:
+5. **Install dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
 
-5. **Install Jupyter (If Not Installed)**:
+6. **Install Jupyter (If Not Installed)**:
     ```bash
     pip install jupyter
     ```
 
-6. **Download the Fashion MNIST dataset and save images **:
+7. **Download the Fashion MNIST dataset and save images **:
    -Navigate to the static\data folder and open fmnist_dataset.ipynb 
    -Run the fmnist_dataset.ipynb notebook code 1 and 4 to download the dataset and save a few example images. The Fmnist_images folder will contain subfolders for each class, and inside each subfolder, 3 images corresponding to that class will be saved. This is necessary for testing the app.
    -Once the F_mnist_dataset.ipynb file is open, you can run the notebook step by step. To run a cell, click on it and press Shift + Enter.    
